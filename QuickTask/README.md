@@ -1,8 +1,8 @@
 # QuickTask – A Personal Task Manager
 
-A full-stack MERN web application built as the capstone mini project for the
-Full Stack Web Development Internship (CE0318) by **Jenish Dobariya (IU2441230218)**,
-Institute of Technology and Engineering, Indus University.
+![MERN Stack](https://img.shields.io/badge/Stack-MERN-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+
+A full-stack MERN web application — a personal task manager built with the MERN stack.
 
 ---
 
@@ -87,10 +87,11 @@ QuickTask/
 
 ---
 
-### 1. Clone / Download the project
+### 1. Clone the repository
 
 ```bash
-cd QuickTask
+git clone https://github.com/Jenish9526/QuickTask-Mini-Project.git
+cd QuickTask-Mini-Project/QuickTask
 ```
 
 ---
@@ -142,6 +143,28 @@ The React app will run at: **http://localhost:3000**
 
 ---
 
+### 4. Seed Fake Data (Optional)
+
+To populate the database with demo tasks across all 3 columns:
+
+```bash
+cd backend
+node seed.js
+```
+
+This creates a demo user you can log in with:
+- **Email:** `demo@quicktask.com`
+- **Password:** `demo1234`
+
+---
+
+### ⚡ Quick Start (Windows)
+
+Instead of opening terminals manually, just double-click **`start.bat`** at the project root.
+It will automatically start both the backend and frontend in separate terminal windows.
+
+---
+
 ## Features
 
 - **User Registration & Login** with JWT authentication
@@ -156,8 +179,17 @@ The React app will run at: **http://localhost:3000**
 
 ---
 
+## Scripts
+
+| Script | Location | Description |
+|---|---|---|
+| `npm run dev` | `backend/` | Start backend with nodemon |
+| `npm start` | `frontend/` | Start React dev server |
+| `node seed.js` | `backend/` | Seed fake tasks into MongoDB |
+| `start.bat` | root | Start both servers with one click |
+
+---
+
 ## Author
 
-**Jenish Dobariya**
-IU2441230218 | B.Tech CSE-C, Sem-4
-Institute of Technology and Engineering, Indus University, Ahmedabad
+[Jenish9526](https://github.com/Jenish9526)
